@@ -4,6 +4,9 @@
   "description": "Interaccion con las apis de Meta, webhooks en en node.js usando Express",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "build": "tsc",
+    "start": "dist index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jorge MH",
@@ -12,6 +15,7 @@
     "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "fly": "^4.6.16"
   }
 }
